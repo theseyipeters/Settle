@@ -14,9 +14,15 @@ body{
 a{
     text-decoration: none;
     cursor: pointer;
+    color: #FFF;
 }
 button{
     cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 header{
@@ -56,6 +62,26 @@ nav ul li{
 nav .buttons{
     display: flex;
     gap: 10px;
+}
+.buttons .login-btn{
+    background-color: #CDFF7A;
+    color: #091A2B;
+    padding: 7px 25px;
+    border: none;
+}
+.buttons .login-btn a{
+    font-size: 14px;
+    color: #091A2B;
+}
+.buttons .get-started-btn{
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 7px 25px;
+    border: none;
+}
+.buttons .get-started-btn a{
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
 .heading{
@@ -128,7 +154,7 @@ nav .buttons{
 }
 
 .realtors{
-    padding: 20px 80px;
+    padding: 0px 80px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 16px;
@@ -137,7 +163,7 @@ nav .buttons{
 }
 .realtor{
     background: #FFF;
-    width: fit-content;
+    width: 370px;
     padding: 25px 35px;
     display: flex;
     flex-direction: column;
@@ -148,6 +174,7 @@ nav .buttons{
 }
 .realtor img{
     width: 150px;
+    border-radius: 50%;
 }
 .realtor-details{
     width: 100%;
@@ -204,7 +231,7 @@ nav .buttons{
     background: #CDFF7A;
     color: #091A2B;
     border: none;
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
 }
 .view-btn a{
@@ -214,7 +241,7 @@ nav .buttons{
     background: #091A2B;
     color: #FFF;
     border: none;
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
 }
 .follow-btn a{

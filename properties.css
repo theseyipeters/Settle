@@ -11,7 +11,7 @@
 a{
     text-decoration: none;
     color: #091A2B;
-    font-size: 12px;
+    font-size: 14px;
 }
 button{
     cursor: pointer;
@@ -30,7 +30,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border-bottom: 1px solid black; */
 }
 
 nav ul{
@@ -106,7 +105,7 @@ nav .buttons{
 }
 
 .listing-details{
-    padding: 15px 10px;
+    padding: 15px 15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -275,6 +274,12 @@ nav .buttons{
 }
 .listing-agent{
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.listing-agent img:nth-child(1){
+    width: 25px;
 }
 .label{
     background: #EBEBEB;
@@ -330,6 +335,12 @@ nav .buttons{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+}
+.listed-agent{
+    margin-top: 5px;
+}
+.listed-agent img:nth-child(1){
+    width: 25px;
 }
 .label-line{
     width: 100%;
@@ -388,6 +399,7 @@ nav .buttons{
     align-items: center;
     gap: 5px;
 }
+
 
 .listed-details{
     margin: 15px 20px;
@@ -492,6 +504,7 @@ nav .buttons{
     gap: 20px;
     /* width: 100%; */
 }
+
 .agent-profile-btn{
     padding: 10px;
     background-color: #091A2B;
@@ -505,6 +518,9 @@ nav .buttons{
     border-radius: 5px;
 
 }
+.agent-profile-btn a{
+    color: #fff;
+}
 .book-btn{
     flex: 1;
     padding: 10px;
@@ -516,6 +532,9 @@ nav .buttons{
     justify-content: center;
     border: none;
     border-radius: 5px;
+}
+.book-btn a{
+    color: #091A2B;
 }
 /* 
 
