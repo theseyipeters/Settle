@@ -3,20 +3,53 @@
 
 
 body {
+  /* position: relative; */
   margin: 0;
   padding: 0;
   font-family: "DM Sans", sans-serif;
   width: 100%;
 }
+body > .slider-container{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1000;
+}
+.slider-wrapper{
+  position: relative;
+  /* margin: 0 auto; */
+}
+.slider{
+  display: flex;
+  /* aspect-ratio: 16 / 9; */
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.slider img{
+  height: 100vh;
+  width: 100%;
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+.slider-nav{
+  display: flex;
+  gap: 20px;
+  /* position: absolute; */
+  justify-content: center;
+  /* margin-top: -300px ; */
+}
 section {
-  background: url(img/Retangle\ 1.png);
+  /* background: url(img/Retangle\ 1.png); */
   width: 100%;
   /* min-height: 965px; */
-  height: fit-content;
+  /* height: fit-content; */
   color: #ffffff;
   column-gap: 30px;
   padding-bottom: 100px;
 }
+
 
 h1,h2,h3,h4,h5,h6{
   letter-spacing: -1.5px;
@@ -44,6 +77,14 @@ div {
   cursor: pointer;
   min-height: 40px;
   min-width: 135px;
+}
+.nav-btn .Login a{
+  text-decoration: none;
+  color: #091A2B;
+}
+.nav-btn .start a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .start {
@@ -146,21 +187,21 @@ ul {
 .search-item select option{
   font-size: 50px;
 }
-.swipe {
+/* .swipe {
   display: flex;
   flex-direction: row;
   padding: 20px;
   justify-content: center;
   align-items: center;
   padding-top: 80px;
-}
+} */
 
 .info {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   column-gap: 150px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .info button{
   background-color: #cdff7a;

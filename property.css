@@ -18,50 +18,27 @@ button{
     cursor: pointer;
 }
 main{
-    position: relative;
+    /* position: relative; */
     height: 100vh;
     width: 100%;
     padding-bottom: 50px;
 }
-.logo{
-    position: relative;
-    width: 100%;
-    z-index: 200;
-    margin-top: 20px;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    color: #091A2B;
-}
-.motto{
-    text-align: center;
-    position: absolute;
-    z-index: 300;
-    margin: 50px 0;
-    color: #091A2B;
-    padding-bottom: 20px;
-    /* margin: auto; */
-}
-.motto span{
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -.5px;
-}
 .logo-img{
     position: relative;
     width: 150px;
-    /* z-index: 200; */
+    z-index: 200;
     display: flex;
     justify-content: center;
 }
 .ellipse{
-    position: absolute;
+    /* position: absolute; */
     margin-top: -40px;
 }
 .ellipse img{
     z-index: 1;
 }  
 .images-container{
+    /* position: relative; */
     display: flex;
     gap: 16px;
     width: 100%;
