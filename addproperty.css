@@ -107,6 +107,33 @@ header > p a{
     flex-direction: column;
     gap: 20px;
 }
+.upload-box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+    color: #ADADAD;
+    border: 1px dashed #ADADAD;
+    border-radius: 5px;
+}
+.upload-box > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+::-webkit-file-upload-button{
+    /* position: absolute; */
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
 .inputs > input{
     padding: 10px;
     border: 1px solid #ADADAD;
