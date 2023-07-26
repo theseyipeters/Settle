@@ -6,10 +6,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "DM Sans", sans-serif;
+  width: 100%;
 }
 section {
   background: url(img/Retangle\ 1.png);
-  max-width: 1440px;
   width: 100%;
   /* min-height: 965px; */
   height: fit-content;
@@ -62,7 +62,6 @@ h1 {
 }
 
 ul {
-  color: #ffffff;
   list-style: none;
   display: inline-flex;
   flex-direction: row;
@@ -257,4 +256,139 @@ b {
 .sign-up button{
   border: none;
   padding: 12px 35px;
+}
+
+
+
+
+.agent{
+  /* width: 100%; */
+  padding: 20px 80px;
+}
+.boxes{
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+}
+
+.agent>p{
+  font-size: 25px;
+  font-weight: 700;
+  color: #091a2b;
+  letter-spacing: -.5px;
+}
+.box{
+  /* height: fit-content; */
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  padding: 40px 20px;
+  background: #091a2b;
+  border-radius: 12px;
+}
+.box > h4{
+  color: #fff;
+  letter-spacing: -.5px;
+  margin-top: 40px;
+}
+.box img{
+  width: 50px;
+}
+.box .number{
+  color: #ADADAD;
+  text-align: right;
+  font-size: 16px;
+}
+.box p{
+  color: #fff;
+  width: 100%;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: -10px;
+}
+
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 80px 0px 20px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links{
+  display: flex;
+  gap: 80px;
+}
+.footer-details{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+.footer-sub{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-sub img{
+  width: 150px;
+}
+.sub-form{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sub-form input{
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  background: transparent;
+  border: .8px solid #091A2B;
+}
+.sub-form button{
+  padding: 10px 20px;
+  background: #CDFF7A;
+  border: none;
+  color: #091A2B;
+  font-size: 14px;
+  height: auto;
+}
+.link{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.link h5{
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -.5px;
+}
+.link ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.link ul li{
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer hr{
+  margin-top: 40px;
+}
+.footer-others{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }

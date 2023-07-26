@@ -92,6 +92,15 @@ main{
 .property-title h3{
     font-size: 25px;
 }
+.realtor .listing-agent{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.realtor .listing-agent img:nth-child(1){
+    width: 25px;
+}
 
 .prop-title{
     display: flex;
